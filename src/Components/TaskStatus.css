@@ -1,0 +1,21 @@
+.task-status-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.task-status-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task-name {
+    font-weight: bold;
+}
+
+.user-name, .status {
+    margin-top: 5px;
+    color: #666;
+}

@@ -1,0 +1,46 @@
+.sidebar-container{
+    background-color: #094162;
+    min-height: 100vh;
+    width: 15%;
+    color: #fff;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-task-container{
+    display: flex;
+}
+.add-task-name{
+    font-size: 26px;
+}
+.add-task-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.add-task-icon:hover {
+    background-color: #0056b3;
+}
+.input-box{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.add-button{
+    background-color: #094162;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
